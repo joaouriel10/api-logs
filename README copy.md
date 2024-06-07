@@ -2,13 +2,12 @@
 
 ## Descrição
 
-Esta aplicação é um API Gateway simples que atua como um ponto central para gerenciar e rotear solicitações HTTP para diferentes serviços de backend. Ela fornece um ponto de entrada unificado para clientes externos e lida com a agregação de serviços, autenticação, e balanceamento de carga.
+Esta aplicação é uma API de Logs que centraliza a coleta e gerenciamento de registros de atividades e eventos de diferentes serviços. Ela oferece um ponto único de entrada para o armazenamento.
 
 ## Recursos
 
-- Roteamento de requisições para diferentes serviços de backend
-- Agregação de respostas de múltiplos serviços
-- Autenticação e autorização
+- Coleta de logs de diferentes serviços
+- Armazenamento centralizado de logs
 
 ## Pré-requisitos
 
@@ -19,7 +18,7 @@ Esta aplicação é um API Gateway simples que atua como um ponto central para g
 
 1. Clone o repositório para o seu ambiente local:
     ```sh
-    git clone https://github.com/joaouriel10/api-gateway.git
+    git clone https://github.com/joaouriel10/api-logs.git
     cd api-gateway
     ```
 
