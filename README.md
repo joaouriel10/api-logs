@@ -43,7 +43,7 @@ Esta aplicação é uma API de Logs que centraliza a coleta e gerenciamento de r
 1. Clone o repositório para o seu ambiente local:
     ```sh
     git clone https://github.com/joaouriel10/api-logs.git
-    cd api-gateway
+    cd api-logs
     ```
 
 2. Instale as dependências:
