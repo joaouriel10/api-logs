@@ -22,52 +22,37 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# API Gateway Application
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Descrição
 
-## Installation
+Esta aplicação é uma API de Logs que centraliza a coleta e gerenciamento de registros de atividades e eventos de diferentes serviços. Ela oferece um ponto único de entrada para o armazenamento.
 
-```bash
-$ npm install
-```
+## Recursos
 
-## Running the app
+- Coleta de logs de diferentes serviços
+- Armazenamento centralizado de logs
 
-```bash
-# development
-$ npm run start
+## Pré-requisitos
 
-# watch mode
-$ npm run start:dev
+- Node.js (v18 ou superior)
+- pnpm (v9 ou superior)
 
-# production mode
-$ npm run start:prod
-```
+## Instalação
 
-## Test
+1. Clone o repositório para o seu ambiente local:
+    ```sh
+    git clone https://github.com/joaouriel10/api-logs.git
+    cd api-gateway
+    ```
 
-```bash
-# unit tests
-$ npm run test
+2. Instale as dependências:
+    ```sh
+    pnpm install
+    ```
 
-# e2e tests
-$ npm run test:e2e
+## Execução
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Para iniciar a aplicação em modo de desenvolvimento, utilize o comando:
+```sh
+pnpm run start:dev
