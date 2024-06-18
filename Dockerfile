@@ -11,4 +11,5 @@ RUN pnpm install
 COPY .env ./
 COPY . .
 
+
 CMD ["pnpm", "run", "start:dev"]
