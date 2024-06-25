@@ -10,8 +10,6 @@ RUN wget -O /usr/local/bin/dockerize https://github.com/jwilder/dockerize/releas
     && tar -C /usr/local/bin -xzvf /usr/local/bin/dockerize \
     && chmod +x /usr/local/bin/dockerize
 
-RUN pnpm add rimraf --save-dev
-
 COPY pnpm-lock.yaml package.json ./
 
 COPY .env ./
