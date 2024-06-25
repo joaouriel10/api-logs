@@ -3,9 +3,10 @@ version: "3.9"
 services: 
   app:
     build: .
+    entrypoint: ["sh", "-c", "dockerize -wait tcp://mongo:27017 -timeout 20s -wait tcp://rabbitmq:5672 -timeout 20s pnpm install && pnpm build && pnpm run start"]
     environment:
       NODE_ENV: development
-      DATABASE_URL: "mongodb://root:qwe123@localhost:27017/?authMechanism=DEFAULT"
+      DATABASE_URL: ${DATABASE_URL}
     depends_on:
       - mongo
       - rabbitmq
